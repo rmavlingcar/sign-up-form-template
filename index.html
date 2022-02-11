@@ -6,7 +6,7 @@
     <meta name="author" content="Ricky Mavlingcar" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <section class="main">
@@ -14,7 +14,7 @@
         <div class="left"></div>
         <div class="content-div">
           <div class="logo-div">
-            <img src="assets/tiger-logo.png" alt="Tiger Logo" />
+            <img class="logo" src="assets/tiger-logo.png" alt="Tiger Logo" />
           </div>
           <div class="content">
             <h1>Welcome to Tiger!</h1>
@@ -22,49 +22,55 @@
             <div class="form-div">
               <form action="#" method="get">
                 <div class="form-inputs">
-                  <label for="first-name">First Name:</label>
-                  <input
-                    type="text"
-                    name="first-name"
-                    id="first-name"
-                    placeholder="John"
-                  />
-                  <label for="last-name">Last Name:</label>
-                  <input
-                    type="text"
-                    name="last-name"
-                    id="last-name"
-                    placeholder="Doe"
-                  />
-                  <label for="email">E-Mail:</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="johndoe@example.com"
-                  />
-                  <label for="phone-num">Phone Number:</label>
-                  <input
-                    type="tel"
-                    name="phone-num"
-                    id="phone-num"
-                    placeholder="123-456-7890"
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                  />
-                  <label for="password">Password:</label>
-                  <input
-                    type="password"
-                    name="password"
-                    id="password"
-                    required
-                  />
-                  <label for="confirm-pass">Confirm Password:</label>
-                  <input
-                    type="password"
-                    name="confirm-pass"
-                    id="confirm-pass"
-                    required
-                  />
+                  <div>
+                    <label for="first-name">First Name:</label>
+                    <input
+                      type="text"
+                      name="first-name"
+                      id="first-name"
+                      placeholder="John"
+                    />
+                    <label for="last-name">Last Name:</label>
+                    <input
+                      type="text"
+                      name="last-name"
+                      id="last-name"
+                      placeholder="Doe"
+                    />
+                  </div>
+                  <div>
+                    <label for="email">E-Mail:</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="johndoe@example.com"
+                    />
+                    <label for="phone-num">Phone Number:</label>
+                    <input
+                      type="tel"
+                      name="phone-num"
+                      id="phone-num"
+                      placeholder="123-456-7890"
+                      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    />
+                  </div>
+                  <div>
+                    <label for="password">Password:</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      required
+                    />
+                    <label for="confirm-pass">Confirm Password:</label>
+                    <input
+                      type="password"
+                      name="confirm-pass"
+                      id="confirm-pass"
+                      required
+                    />
+                  </div>
                 </div>
                 <div class="form-submit">
                   <button type="submit">Create Account</button>
@@ -76,9 +82,13 @@
             </h3>
           </div>
         </div>
-      </div>
-      <div class="right">
-          <img src="assets/tiger-splash_1280.jpg"bbcc alt="tiger splash image">
+        <div class="right">
+          <img
+            src="assets/tiger-splash_1280.jpg"
+            class="splash"
+            alt="tiger splash image"
+          />
+        </div>
       </div>
     </section>
     <footer class="footer">
