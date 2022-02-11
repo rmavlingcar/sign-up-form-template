@@ -100,16 +100,16 @@ button {
   flex-wrap: wrap;
 }
 
-#first_name,
+#first-name,
 #email,
-#user_password {
+#password {
   margin-right: 80px;
   transition: 0.3s;
 }
 
-#last_name,
-#phone_number,
-#user_password_confirm {
+#last-name,
+#phone-number,
+#confirm-pass {
   transition: 0.3s;
 }
 
