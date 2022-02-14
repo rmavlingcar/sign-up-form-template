@@ -4,8 +4,8 @@ body {
   flex-direction: column;
 }
 
-.main{
-    padding: 20px;
+.main {
+  padding: 20px;
 }
 
 .sign-up-form {
@@ -37,7 +37,7 @@ body {
 }
 
 .content {
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 h1 {
@@ -54,8 +54,6 @@ label {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
-  padding-left: 5px;
-  padding-bottom: 10px;
 }
 
 input {
@@ -96,8 +94,13 @@ button {
 
 .form-inputs {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
 }
 
 #first-name,
@@ -116,6 +119,12 @@ button {
 .right {
   display: flex;
 }
+
+.login{
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+}
+
 .splash {
   height: 850px;
   width: 750px;
