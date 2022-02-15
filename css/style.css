@@ -143,3 +143,48 @@ button {
   color: rgb(255, 81, 0);
   font-size: 18px;
 }
+
+@media (max-width: 1650px) {
+  .right {
+      display: none;
+  }
+  .content-div {
+      height: 750px;
+      padding-right: 50px;
+  }
+  .left {
+      height: 750px;
+  }
+  .footer{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .right {
+      display: none;
+  }
+  
+  .content-div {
+      height: 1100px;
+      padding-right: 50px;
+      padding-left: 20px;
+  }
+  .left {
+      height: 1100px;
+      width: 10px;
+      flex-shrink: 0;
+  }
+  .form-inputs{
+    flex-flow: column wrap;
+  }
+  .footer{
+    position: relative;
+  }
+  label{
+    font-size: 12px;
+  }
+  .have-account{
+    font-size: 13px;
+  }
+}
